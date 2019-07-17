@@ -92,26 +92,6 @@ public class IzvestajOBrojuDorucakaREST {
                 si.setBrojDorucaka(brojDorucaka);
                 lista.add(si);
             }
-            /*
-            JSONArray stavke = (JSONArray) json.get("lista");
-            for (int i = 0; i < stavke.size(); i++) {
-                JSONObject jsonobject = stavke.getJSONObject(i);
-                String rbr = jsonobject.getString();
-                String url = jsonobject.getString("url");
-
-                ArrayList<StavkaIzvestaja> lista = new ArrayList<>();
-                for (Object object : stavke) {
-                    int rbr = Integer.parseInt((String) object("rbrStavke"));
-                    String dan = (String) stavke.get("dan");
-                    Date datum = df.parse(((String) stavke.get("datum")).replaceAll("Z$", "+0000"));
-                    int brojDorucaka = Integer.parseInt((String) json.get("brojDorucaka"));
-                }
-                /*
-                int rbr = Integer.parseInt((String) stavke.get("rbrStavke"));
-                String dan = (String) stavke.get("dan");
-                Date datum = df.parse(((String) stavke.get("datum")).replaceAll("Z$", "+0000"));
-                int brojDorucaka = Integer.parseInt((String) json.get("brojDorucaka"));
-             */
             k.setStavkeIzvestaja(lista);
 
             k.sacuvajIzvestaj();
