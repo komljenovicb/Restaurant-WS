@@ -25,7 +25,7 @@ import pl.KontrolerIzvestaja;
 @Path("restoran")
 public class RestoranREST {
     
-    /*
+    
     KontrolerIzvestaja k;
 
     public RestoranREST() {
@@ -55,6 +55,6 @@ public class RestoranREST {
         }
         return Response.status(Response.Status.SERVICE_UNAVAILABLE).build();
     }
-*/
+
     
 }
