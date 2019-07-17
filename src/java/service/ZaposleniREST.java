@@ -25,7 +25,7 @@ import pl.KontrolerIzvestaja;
  */
 @Path("zaposleni")
 public class ZaposleniREST {
-    /*
+    
     KontrolerIzvestaja k;
 
     public ZaposleniREST() {
@@ -62,5 +62,5 @@ public class ZaposleniREST {
         }
         return Response.status(Response.Status.SERVICE_UNAVAILABLE).build();
     }
-     */
+     
 }
