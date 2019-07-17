@@ -151,7 +151,7 @@ public class KontrolerIzvestaja {
         this.rbrIzvestaja = rbrIzvestaja;
     }
 
-    /*
+    
     public List<Restoran> vratiRestorane() {
         List<Restoran> rsRestorani = new ArrayList<>();
         try {
@@ -180,7 +180,8 @@ public class KontrolerIzvestaja {
 
         return rsZaposleni;
     }
-
+    
+    /*
     public void izmeniIzvestaj() {
         try {
 
